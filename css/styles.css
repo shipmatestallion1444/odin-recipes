@@ -1,0 +1,56 @@
+/* 
+font-family: 'Lato', sans-serif;
+font-family: 'Whisper', cursive;
+*/
+
+*{
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(209, 250, 209);
+}
+
+#pageNameHeader {
+    font-family: 'Whisper', cursive;
+    font-weight: 200;
+    font-size: 72px;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    padding-bottom: 10px;
+}
+
+.navbar li{
+    float: left;
+}
+
+.navbar li a{
+    color:white;
+    
+    display: block;
+    padding: 8px;
+    background-color: rgb(60, 137, 76);
+}
+
+.navbar li a:link { text-decoration: none; }
+
+
+.navbar li a:visited { text-decoration: none; }
+
+
+.navbar li a:hover { 
+    text-decoration: none; 
+    background-color: rgb(72, 161, 90);
+}
+
+
+.navbar li a:active { text-decoration: none; }
+
+.devNote {
+    background-color: white;
+    text-indent: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(60, 137, 76);
+}
